@@ -1,0 +1,83 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/sections/Hero.astro";
+import Services from "../components/sections/Services.astro";
+import AboutUs from "../components/sections/AboutUs.astro";
+import Features from "../components/sections/Features.astro";
+import CTA from "../components/sections/CTA.astro";
+import WorldWeb from "../components/sections/WorldWeb.astro";
+import You from "../components/sections/You.astro";
+import Discover from "../components/sections/Discover.astro";
+import Giving from "../components/sections/Giving.astro";
+---
+
+<Layout title="Welcome to LoveSpread">
+	<video
+		id="video"
+		playsinline
+		webkit-playsinline
+		muted
+		loop
+		autoplay
+		width="1040"
+		height="1290"
+		crossorigin="anonymous"
+		src="https://lovespread-website.s3.ca-central-1.amazonaws.com/media.mov"
+		style="display:none"></video>
+	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+		<Hero />
+		<!-- <Brands /> -->
+		<!-- <WorldWeb /> -->
+		<!-- <Services /> -->
+		<!-- <You /> -->
+		<Discover />
+		<Giving />
+		<!-- <CTA /> -->
+		<div
+			class="hidden dark:block fixed inset-0 -top-16 -z-10 justify-center overflow-hidden lg:-top-20"
+		>
+			<img
+				alt=""
+				fetchpriority="high"
+				width="640"
+				height="1124"
+				decoding="async"
+				data-nimg="1"
+				class="absolute origin-top scale-[1.7] sm:hidden"
+				style="color:transparent"
+				crossorigin="anonymous"
+				srcset="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage-mobile.png"
+				src="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage-mobile.png"
+			/><img
+				alt=""
+				fetchpriority="high"
+				width="1024"
+				height="1124"
+				decoding="async"
+				data-nimg="1"
+				class="absolute hidden origin-top scale-[1.5] sm:block lg:hidden"
+				style="color:transparent"
+				crossorigin="anonymous"
+				srcset="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage-tablet.png"
+				src="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage-tablet.png"
+			/>
+			<img
+				alt=""
+				fetchpriority="high"
+				width="2510"
+				height="1168"
+				decoding="async"
+				data-nimg="1"
+				class="absolute max-w-none origin-top scale-[1.25]"
+				style="color:transparent"
+				crossorigin="anonymous"
+				srcset="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage.png"
+				src="https://lovespread-website.s3.ca-central-1.amazonaws.com/images/glow-homepage.png"
+			/>
+			<div
+				class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-900"
+			>
+			</div>
+		</div>
+	</main>
+</Layout>

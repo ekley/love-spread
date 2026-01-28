@@ -1,0 +1,16 @@
+---
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+import Radar from "./../3d/radar.astro";
+---
+
+<section>
+    <Container className="space-y-8">
+        <div class="text-center max-w-3xl mx-auto">
+            <Title>Trusted by companies like</Title>
+        </div>
+        <div class="flex justify-center flex-wrap gap-4">
+            <Radar />
+        </div>
+    </Container>
+</section>
