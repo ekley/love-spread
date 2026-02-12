@@ -21,24 +21,26 @@ Love Spread allowed users to pool donations for initiatives such as rescuing dog
 
 Inside your Astro project, you'll find the following folders and files:  
 
+```text
 /
 ├── public/
-│ ├── images/
-│ ├── logos/*
-│ └── favicon.svg
+│   ├── images/
+│   ├── logos/*
+│   └── favicon.svg
 ├── src/
-│ ├── components/
-│ │ ├── blocks/*
-│ │ ├── cards/*
-│ │ ├── elements/*
-│ │ ├── sections/*
-│ │ ├── shared/*
-│ ├── layouts/
-│ │ └── Layout.astro
-│ └── pages/
-│ └── index.astro
+│   ├── components/
+│   │   ├── blocks/*
+│   │   ├── cards/*
+│   │   ├── elements/*
+│   │   ├── sections/*
+│   │   └── shared/*
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
 ├── package.json
 └── tailwind.config.cjs
+```
 
 
 ## 🧞 Commands
