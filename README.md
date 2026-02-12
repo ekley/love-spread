@@ -19,7 +19,7 @@ Love Spread allowed users to pool donations for initiatives such as rescuing dog
 
 ## 🚀 Project Structure
 
-Inside your Astro project, you'll find the following folders and files:  
+Inside Love Spread project, you'll find the following folders and files:  
 
 ```text
 /
