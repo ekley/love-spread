@@ -1,49 +1,54 @@
-<h1>LoveSpread Landing page</h1>
+![LoveSpread Dark Theme](./screens/logo.png)  
+# Love Spread
 
-A simple landing page for a digital agency
+**Definition:**  
+Love Spread is a philanthropic social media platform designed to bring people together from around the world to support worthy causes.  
 
-![LoveSpread light Theme](./screens/demoLight.webp)
-![LoveSpread Dark Theme](./screens/demoDark.webp)
+**About:**  
+Love Spread allowed users to pool donations for initiatives such as rescuing dogs, providing clean water, advancing education, and assisting communities recovering from disasters. By making collaboration easy, it enabled communities to come together and create a tangible, positive impact.  
+
+![LoveSpread Dark Theme](./screens/main-section.png)  
+![LoveSpread Dark Theme](./screens/discover-section.png)  
+![LoveSpread Dark Theme](./screens/footer-section.png)  
 
 ## Tools
 
-- TailwindCSS v3.3
-- AstroJs v3
+- TailwindCSS v3.3  
+- AstroJS v3  
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside your Astro project, you'll find the following folders and files:  
 
-```
 /
 ├── public/
-│   ├── images/
-│   ├── logos/*
-│   └── favicon.svg
+│ ├── images/
+│ ├── logos/*
+│ └── favicon.svg
 ├── src/
-│   ├── components/
-│   │   ├── blocks/*
-│   │   ├── cards/*
-│   │   ├── elements/*
-│   │   ├── sections/*
-│   │   ├── shared/*
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│ ├── components/
+│ │ ├── blocks/*
+│ │ ├── cards/*
+│ │ ├── elements/*
+│ │ ├── sections/*
+│ │ ├── shared/*
+│ ├── layouts/
+│ │ └── Layout.astro
+│ └── pages/
+│ └── index.astro
 ├── package.json
 └── tailwind.config.cjs
-```
+
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root of the project, via the terminal:  
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:4321`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
+| `npm install`          | Install project dependencies                     |
+| `npm run dev`          | Start local dev server at `localhost:4321`      |
+| `npm run build`        | Build your production site to `./dist/`         |
+| `npm run preview`      | Preview your build locally before deploying     |
+| `npm run astro ...`    | Run CLI commands such as `astro add`, `astro check` |
+| `npm run astro --help` | Display help for Astro CLI commands             |
