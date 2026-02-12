@@ -7,9 +7,10 @@ Love Spread is a philanthropic social media platform designed to bring people to
 **About:**  
 Love Spread allowed users to pool donations for initiatives such as rescuing dogs, providing clean water, advancing education, and assisting communities recovering from disasters. By making collaboration easy, it enabled communities to come together and create a tangible, positive impact.  
 
-![LoveSpread Dark Theme](./screens/main-section.png)  
-![LoveSpread Dark Theme](./screens/discover-section.png)  
-![LoveSpread Dark Theme](./screens/footer-section.png)  
+<img src="./screens/main-section.png" alt="LoveSpread Dark Theme" width="600" height="400">
+<img src="./screens/discover-section.png" alt="LoveSpread Dark Theme" width="600" height="400">
+<img src="./screens/footer-section.png" alt="LoveSpread Dark Theme" width="600" height="400">
+
 
 ## Tools
 
